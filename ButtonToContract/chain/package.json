@@ -1,0 +1,24 @@
+{
+  "name": "ButtonToContract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy:base-sepolia": "hardhat run scripts/deploy.js --network base-sepolia",
+    "verify:base-sepolia": "hardhat verify --network base-sepolia"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "@nomicfoundation/hardhat-verify": "^2.1.0",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.26.2"
+  },
+  "dependencies": {
+    "ethers": "^6.15.0"
+  }
+}
