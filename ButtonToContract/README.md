@@ -148,3 +148,7 @@ cd chain && npm i && npm run compile && npm run deploy:base-sepolia
 cd pi && sudo -E env "PATH=$PATH" python3 state_button_oled.py
 ```
 
+---
+
+🧠 Built with purpose by Omniacs.DAO • Back us with $IACS → 0x46e69Fa9059C3D5F8933CA5E993158568DC80EBf (Base)
+
